@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote  name="krizthian"
+    fetch="https://github.com/Krizthian"
+    revision="xosp" />
+
+    <remote  name="lineageos"
+    fetch="https://github.com/LineageOS"
+    revision="cm-14.1" />
+
+    <remote  name="themuppets"
+    fetch="https://github.com/TheMuppets"
+    revision="cm-14.1" />
+
+<project path="device/samsung/jfltexx" name="android_device_samsung_jfltexx" remote="krizthian" revision="xosp" />
+
+<project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="krizthian" revision="xosp" />
+
+<project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="krizthian" revision="xosp" />
+
+<project path="device/qcom/common" name="android_device_qcom_common" remote="lineageos" revision="cm-14.1" />
+
+<project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="lineageos" revision="cm-14.1" />
+
+<project path="external/stlport" name="android_external_stlport" remote="lineageos" revision="cm-14.1" />
+
+<project path="vendor/samsung" name="proprietary_vendor_samsung" remote="themuppets" revision="cm-14.1" />
+
+<project path="hardware/samsung" name="android_hardware_samsung" remote="lineageos" revision="cm-14.1" />
+</manifest>
